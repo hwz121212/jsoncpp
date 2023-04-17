@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stringWrite", "demo\example
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp_test", "demo\jsoncpp_test\jsoncpp_test_linux.vcxproj", "{07319FEE-3F66-4F30-9E28-7CA992BA01F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsontestrunner_exe", "demo\jsontestrunner_exe\jsontestrunner_exe_linux.vcxproj", "{CF6C7965-079D-4BE3-B1D8-75D9F46119DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -57,6 +59,10 @@ Global
 		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Debug|x64.Build.0 = Debug|x64
 		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Release|x64.ActiveCfg = Release|x64
 		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Release|x64.Build.0 = Release|x64
+		{CF6C7965-079D-4BE3-B1D8-75D9F46119DC}.Debug|x64.ActiveCfg = Debug|x64
+		{CF6C7965-079D-4BE3-B1D8-75D9F46119DC}.Debug|x64.Build.0 = Debug|x64
+		{CF6C7965-079D-4BE3-B1D8-75D9F46119DC}.Release|x64.ActiveCfg = Release|x64
+		{CF6C7965-079D-4BE3-B1D8-75D9F46119DC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{C17A7649-B282-488E-8EF7-2830B3947892} = {FB67FB1E-CA8B-4A95-ADBD-3FF29C4988CB}
 		{569DF9AB-52B4-48E8-9F65-E6D66FF9ACFD} = {FB67FB1E-CA8B-4A95-ADBD-3FF29C4988CB}
 		{07319FEE-3F66-4F30-9E28-7CA992BA01F8} = {0308EA3F-36B3-4A2E-90E4-87AFE8A14130}
+		{CF6C7965-079D-4BE3-B1D8-75D9F46119DC} = {0308EA3F-36B3-4A2E-90E4-87AFE8A14130}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
