@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streamWrite", "demo\example
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stringWrite", "demo\example\stringWrite\stringWrite_linux.vcxproj", "{569DF9AB-52B4-48E8-9F65-E6D66FF9ACFD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp_test", "demo\jsoncpp_test\jsoncpp_test_linux.vcxproj", "{07319FEE-3F66-4F30-9E28-7CA992BA01F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,10 @@ Global
 		{569DF9AB-52B4-48E8-9F65-E6D66FF9ACFD}.Debug|x64.Build.0 = Debug|x64
 		{569DF9AB-52B4-48E8-9F65-E6D66FF9ACFD}.Release|x64.ActiveCfg = Release|x64
 		{569DF9AB-52B4-48E8-9F65-E6D66FF9ACFD}.Release|x64.Build.0 = Release|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Debug|x64.ActiveCfg = Debug|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Debug|x64.Build.0 = Debug|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Release|x64.ActiveCfg = Release|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{07C8445B-8638-4688-A4CF-452C7643481A} = {FB67FB1E-CA8B-4A95-ADBD-3FF29C4988CB}
 		{C17A7649-B282-488E-8EF7-2830B3947892} = {FB67FB1E-CA8B-4A95-ADBD-3FF29C4988CB}
 		{569DF9AB-52B4-48E8-9F65-E6D66FF9ACFD} = {FB67FB1E-CA8B-4A95-ADBD-3FF29C4988CB}
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8} = {0308EA3F-36B3-4A2E-90E4-87AFE8A14130}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
