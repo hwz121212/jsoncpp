@@ -84,7 +84,8 @@ public:
   // Generic operator that will work with anything ostream can deal with.
   template <typename T> TestResult& operator<<(const T& value) {
     Json::OStringStream oss;
-    oss << std::setprecision(16) << std::hexfloat << value;
+    //oss << std::setprecision(16) << std::hexfloat << value;
+	oss << std::setprecision(16) << value;
     return addToLastFailure(oss.str());
   }
 
