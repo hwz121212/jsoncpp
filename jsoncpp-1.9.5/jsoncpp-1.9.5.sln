@@ -12,6 +12,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjsoncpp", "thirdparty\jsoncpp-1.9.5\libjsoncpp.vcxproj", "{1FC6299F-176B-32F3-95BC-A5171A2312AA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp_test", "demo\jsoncpp_test\jsoncpp_test.vcxproj", "{790F143F-677A-3B2E-B602-39A31890C162}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB742E03-6111-3077-B232-388ABBBC3911} = {AB742E03-6111-3077-B232-388ABBBC3911}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsontestrunner_exe", "demo\jsontestrunner_exe\jsontestrunner_exe.vcxproj", "{B7143780-84AE-3104-BB2C-2C111FC2A54E}"
 	ProjectSection(ProjectDependencies) = postProject
