@@ -14,16 +14,31 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp_test", "demo\jsoncpp_test\jsoncpp_test.vcxproj", "{790F143F-677A-3B2E-B602-39A31890C162}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsontestrunner_exe", "demo\jsontestrunner_exe\jsontestrunner_exe.vcxproj", "{B7143780-84AE-3104-BB2C-2C111FC2A54E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB742E03-6111-3077-B232-388ABBBC3911} = {AB742E03-6111-3077-B232-388ABBBC3911}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{1EBB1CE0-6133-4365-ACB6-DC1DC9571D0B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "readFromStream", "demo\example\readFromStream\readFromStream.vcxproj", "{04745648-A87E-35C2-9E6D-CECBE1D432A7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FC6299F-176B-32F3-95BC-A5171A2312AA} = {1FC6299F-176B-32F3-95BC-A5171A2312AA}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "readFromString", "demo\example\readFromString\readFromString.vcxproj", "{72195227-7228-3213-A546-D5456865B06A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FC6299F-176B-32F3-95BC-A5171A2312AA} = {1FC6299F-176B-32F3-95BC-A5171A2312AA}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streamWrite", "demo\example\streamWrite\streamWrite.vcxproj", "{3952C30A-0952-3AB8-9035-3E189B67E84A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FC6299F-176B-32F3-95BC-A5171A2312AA} = {1FC6299F-176B-32F3-95BC-A5171A2312AA}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stringWrite", "demo\example\stringWrite\stringWrite.vcxproj", "{6EC6E7F3-F747-3B62-8945-2400BCA4E684}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FC6299F-176B-32F3-95BC-A5171A2312AA} = {1FC6299F-176B-32F3-95BC-A5171A2312AA}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
